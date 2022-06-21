@@ -4,7 +4,7 @@ This program checks whether the user input matches the Portuguese Tax number for
 
 # ⚙️ Code explanation
 
-- an input and button elements make the UI of the tax number validation form
+- an input and button elements make the UI of the tax number validation form.
 - a function called validate () gets executed as an event when the button is clicked and checks if the input has 9 numbers in total and is of type number. 
-
+- defer is used to make the script executed after the document has been parsed.
 
